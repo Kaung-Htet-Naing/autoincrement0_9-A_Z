@@ -12,7 +12,10 @@ public class main {
 
         num++;
         if(num>999999){
-            if(second=='Z') first += 1;
+            if(second=='Z') {
+                first += 1;
+                second = 'A';
+            }
 
             else second += 1;
 
